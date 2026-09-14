@@ -59,7 +59,7 @@ header h1 {
 }
 
 .image-container h2 {
-    max-width: 700px; /* Adjust this number to make the text block wider or narrower */
+    max-width: 1200px; /* Adjust this number to make the text block wider or narrower */
     text-align: center; /* Ensures the text stays centered within its new boundaries */
     line-height: 1.4; /* Adds a little breathing room between the lines of text */
     margin: 0 auto; /* Centers the text block itself if needed */
