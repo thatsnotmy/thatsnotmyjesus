@@ -53,6 +53,18 @@ header h1 {
     display: block; /* Semicolon fixed! */
 }
 
+.medium-image {
+    max-width: 1200px;
+    width: 100%; /* Ensures it still shrinks to fit smaller mobile screens */
+}
+
+.image-container h2 {
+    max-width: 700px; /* Adjust this number to make the text block wider or narrower */
+    text-align: center; /* Ensures the text stays centered within its new boundaries */
+    line-height: 1.4; /* Adds a little breathing room between the lines of text */
+    margin: 0 auto; /* Centers the text block itself if needed */
+}
+
 /* Adds a cool hover effect */
 .gallery img:hover {
     transform: scale(1.03);
