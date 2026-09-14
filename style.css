@@ -44,6 +44,7 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    display: block
 }
 
 /* Adds a cool hover effect */
@@ -52,7 +53,9 @@ header h1 {
 }
 
 .image-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column; /* Forces the image and text to stack vertically */
+    align-items: center; /* Centers both the image and the text */
     margin-bottom: 20px;
 }
 
