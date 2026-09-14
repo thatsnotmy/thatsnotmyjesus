@@ -6,8 +6,9 @@
 
 
 body {
-  /* It is good practice to include slight name variations and a generic fallback like 'sans-serif' */
-  font-family: "ITC Tempus Sans", "Tempus Sans ITC", sans-serif;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 22px; /* Caveat sometimes looks a bit small, so bumping up the size helps */
 }
 
 /* Form elements don't always inherit fonts automatically from the body, so you can add this to cover absolutely everything: */
